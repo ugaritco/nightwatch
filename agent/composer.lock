@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "94860b1ed2ba7b89684fab59e59f8799",
+    "content-hash": "97278c5f98492d8019fee8f92280432f",
     "packages": [
         {
             "name": "evenement/evenement",
@@ -384,16 +384,16 @@
         },
         {
             "name": "react/http",
-            "version": "v1.11.0",
+            "version": "v1.11.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/http.git",
-                "reference": "8db02de41dcca82037367f67a2d4be365b1c4db9"
+                "reference": "e5b8eb2654dec6cbbc692a39f05ea4ecd40c8cc1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/http/zipball/8db02de41dcca82037367f67a2d4be365b1c4db9",
-                "reference": "8db02de41dcca82037367f67a2d4be365b1c4db9",
+                "url": "https://api.github.com/repos/reactphp/http/zipball/e5b8eb2654dec6cbbc692a39f05ea4ecd40c8cc1",
+                "reference": "e5b8eb2654dec6cbbc692a39f05ea4ecd40c8cc1",
                 "shasum": ""
             },
             "require": {
@@ -410,7 +410,7 @@
                 "clue/http-proxy-react": "^1.8",
                 "clue/reactphp-ssh-proxy": "^1.4",
                 "clue/socks-react": "^1.4",
-                "phpunit/phpunit": "^9.6 || ^5.7 || ^4.8.36",
+                "phpunit/phpunit": "^9.6 || ^8.5 || ^5.7 || ^4.8.36",
                 "react/async": "^4.2 || ^3 || ^2",
                 "react/promise-stream": "^1.4",
                 "react/promise-timer": "^1.11"
@@ -463,7 +463,7 @@
             ],
             "support": {
                 "issues": "https://github.com/reactphp/http/issues",
-                "source": "https://github.com/reactphp/http/tree/v1.11.0"
+                "source": "https://github.com/reactphp/http/tree/v1.11.1"
             },
             "funding": [
                 {
@@ -471,7 +471,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2024-11-20T15:24:08+00:00"
+            "time": "2026-09-09T07:08:28+00:00"
         },
         {
             "name": "react/promise",
@@ -767,76 +767,6 @@
                 }
             ],
             "time": "2026-08-24T09:06:52+00:00"
-        },
-        {
-            "name": "ugarit/pint",
-            "version": "v1.30.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ugarit/pint.git",
-                "reference": "a96cb6eee2961905d2fce7207aefb80945bf6b28"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ugarit/pint/zipball/a96cb6eee2961905d2fce7207aefb80945bf6b28",
-                "reference": "a96cb6eee2961905d2fce7207aefb80945bf6b28",
-                "shasum": ""
-            },
-            "require": {
-                "ext-json": "*",
-                "ext-mbstring": "*",
-                "ext-tokenizer": "*",
-                "ext-xml": "*",
-                "php": "^8.2.0"
-            },
-            "require-dev": {
-                "composer/semver": "^3.4.4",
-                "friendsofphp/php-cs-fixer": "^3.95.18",
-                "heritage/view": "^12.65.0",
-                "larastan/larastan": "^3.10.0",
-                "ugarit-zero/framework": "^12.1.0",
-                "ugarit/agent-detector": "^2.0.2",
-                "ugarit/prompts": "^0.3.22",
-                "mockery/mockery": "^1.6.12",
-                "nunomaduro/termwind": "^2.4.0",
-                "pestphp/pest": "^3.8.7"
-            },
-            "bin": [
-                "builds/pint"
-            ],
-            "type": "project",
-            "autoload": {
-                "psr-4": {
-                    "App\\": "app/",
-                    "Database\\Seeders\\": "database/seeders/",
-                    "Database\\Factories\\": "database/factories/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Nuno Maduro",
-                    "email": "enunomaduro@gmail.com"
-                }
-            ],
-            "description": "An opinionated code formatter for PHP.",
-            "homepage": "https://ugarit.com",
-            "keywords": [
-                "dev",
-                "format",
-                "formatter",
-                "lint",
-                "linter",
-                "php"
-            ],
-            "support": {
-                "issues": "https://github.com/ugarit/pint/issues",
-                "source": "https://github.com/ugarit/pint"
-            },
-            "time": "2026-08-05T16:47:22+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -1151,11 +1081,11 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "2.2.12",
+            "version": "2.2.13",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/174b0d88710f00a42598886504dd7a146f91ace5",
-                "reference": "174b0d88710f00a42598886504dd7a146f91ace5",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/9ba9ac76ee9c5cf5b56d58eb5deec6315b7a0260",
+                "reference": "9ba9ac76ee9c5cf5b56d58eb5deec6315b7a0260",
                 "shasum": ""
             },
             "require": {
@@ -1211,7 +1141,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-08-31T19:09:43+00:00"
+            "time": "2026-09-03T20:38:19+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -3073,6 +3003,76 @@
                 }
             ],
             "time": "2025-11-17T20:03:58+00:00"
+        },
+        {
+            "name": "ugarit/pint",
+            "version": "v1.30.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ugarit/pint.git",
+                "reference": "a96cb6eee2961905d2fce7207aefb80945bf6b28"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ugarit/pint/zipball/a96cb6eee2961905d2fce7207aefb80945bf6b28",
+                "reference": "a96cb6eee2961905d2fce7207aefb80945bf6b28",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "ext-tokenizer": "*",
+                "ext-xml": "*",
+                "php": "^8.2.0"
+            },
+            "require-dev": {
+                "composer/semver": "^3.4.4",
+                "friendsofphp/php-cs-fixer": "^3.95.18",
+                "heritage/view": "^12.65.0",
+                "larastan/larastan": "^3.10.0",
+                "mockery/mockery": "^1.6.12",
+                "nunomaduro/termwind": "^2.4.0",
+                "pestphp/pest": "^3.8.7",
+                "ugarit-zero/framework": "^12.1.0",
+                "ugarit/agent-detector": "^2.0.2",
+                "ugarit/prompts": "^0.3.22"
+            },
+            "bin": [
+                "builds/pint"
+            ],
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "App\\": "app/",
+                    "Database\\Seeders\\": "database/seeders/",
+                    "Database\\Factories\\": "database/factories/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nuno Maduro",
+                    "email": "enunomaduro@gmail.com"
+                }
+            ],
+            "description": "An opinionated code formatter for PHP.",
+            "homepage": "https://ugarit.com",
+            "keywords": [
+                "dev",
+                "format",
+                "formatter",
+                "lint",
+                "linter",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/ugarit/pint/issues",
+                "source": "https://github.com/ugarit/pint"
+            },
+            "time": "2026-08-05T16:47:22+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
