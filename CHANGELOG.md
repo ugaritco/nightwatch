@@ -1,0 +1,876 @@
+# Release Notes
+
+## [Unreleased](https://github.com/ugarit/nightwatch/compare/v1.30.0...1.x)
+
+## [v1.28.2](https://github.com/ugarit/nightwatch/compare/v1.28.1...v1.28.2) - 2026-06-24
+
+### What's Changed
+
+* Revert "Capture and restore first trace on initial framework boot (#3… by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/386
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.28.1...v1.28.2
+
+## [v1.30.0](https://github.com/ugarit/nightwatch/compare/v1.29.0...v1.30.0) - 2026-08-26
+
+### What's Changed
+
+* Add `IngestingEvent::eventCount` method by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/422
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.29.0...v1.30.0
+
+## [v1.29.0](https://github.com/ugarit/nightwatch/compare/v1.28.7...v1.29.0) - 2026-08-25
+
+### What's Changed
+
+* Bump EndBug/add-and-commit from 10.0.0 to 11.0.0 in the github-actions group by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/ugarit/nightwatch/pull/417
+* Allow limiting events ingested per app / env based on an event listener by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/418
+* Support Guzzle 3.0 by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/420
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.28.7...v1.29.0
+
+## [v1.28.7](https://github.com/ugarit/nightwatch/compare/v1.28.6...v1.28.7) - 2026-08-13
+
+### What's Changed
+
+* Bump the composer group in /agent with 2 updates by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/ugarit/nightwatch/pull/411
+* Ingest unhandled exception immediately while sampling by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/414
+* Deeply unwrap view exceptions by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/415
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.28.6...v1.28.7
+
+## [v1.28.6](https://github.com/ugarit/nightwatch/compare/v1.28.5...v1.28.6) - 2026-08-07
+
+### What's Changed
+
+* Bump the github-actions group with 2 updates by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/ugarit/nightwatch/pull/405
+* Bump docker/login-action from 4.5.0 to 4.6.0 in the github-actions group by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/ugarit/nightwatch/pull/408
+* Bump the composer group in /agent with 2 updates by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/ugarit/nightwatch/pull/407
+* Improved JSON encoding by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/410
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.28.5...v1.28.6
+
+## [v1.28.5](https://github.com/ugarit/nightwatch/compare/v1.28.4...v1.28.5) - 2026-07-28
+
+### What's Changed
+
+* Update agent dependencies with dependabot by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/391
+* Bump the composer group in /agent with 3 updates by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/ugarit/nightwatch/pull/392
+* Bump the github-actions group with 2 updates by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/ugarit/nightwatch/pull/393
+* Bump phpstan/phpstan from 2.2.2 to 2.2.3 in /agent in the composer group by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/ugarit/nightwatch/pull/395
+* Bump the github-actions group with 4 updates by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/ugarit/nightwatch/pull/396
+* Bump docker/login-action from 4.3.0 to 4.4.0 in the github-actions group by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/ugarit/nightwatch/pull/400
+* Bump the composer group in /agent with 2 updates by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/ugarit/nightwatch/pull/399
+* Bump softprops/action-gh-release from 3.0.1 to 3.0.2 in the github-actions group by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/ugarit/nightwatch/pull/401
+* Respect `ExceptionHandler::dontReport` rules when NW manually reports exceptions in hooks by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/404
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.28.4...v1.28.5
+
+## [v1.28.4](https://github.com/ugarit/nightwatch/compare/v1.28.3...v1.28.4) - 2026-06-30
+
+### What's Changed
+
+* Support direct connection types by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/390
+* Bump the github-actions group across 1 directory with 5 updates by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/ugarit/nightwatch/pull/382
+* Support enum queues via Queue attribute by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/361
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.28.3...v1.28.4
+
+## [v1.28.3](https://github.com/ugarit/nightwatch/compare/v1.28.1...v1.28.3) - 2026-06-24
+
+### What's Changed
+
+* Move trace handling lower to allow registering classes on double boot by [@jradtilbrook](https://github.com/jradtilbrook) in https://github.com/ugarit/nightwatch/pull/387
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.28.2...v1.28.3
+
+## [v1.28.1](https://github.com/ugarit/nightwatch/compare/v1.28.0...v1.28.1) - 2026-06-23
+
+### What's Changed
+
+* Fix tests broken against latest dependencies by [@jradtilbrook](https://github.com/jradtilbrook) in https://github.com/ugarit/nightwatch/pull/384
+* Capture and restore first trace on initial framework boot by [@jradtilbrook](https://github.com/jradtilbrook) in https://github.com/ugarit/nightwatch/pull/383
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.28.0...v1.28.1
+
+## [v1.28.0](https://github.com/ugarit/nightwatch/compare/v1.27.0...v1.28.0) - 2026-06-04
+
+#### What's Changed
+
+* Fix dependabot permissions by [@jessarcher](https://github.com/jessarcher) in https://github.com/ugarit/nightwatch/pull/370
+* Fix dependabot permissions by [@jessarcher](https://github.com/jessarcher) in https://github.com/ugarit/nightwatch/pull/371
+* Pin GitHub Actions to commit SHAs and add Dependabot config by [@joetannenbaum](https://github.com/joetannenbaum) in https://github.com/ugarit/nightwatch/pull/363
+* Bump symfony/process from 7.3.4 to 7.3.11 in /agent by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/ugarit/nightwatch/pull/365
+* Bump the github-actions group with 7 updates by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/ugarit/nightwatch/pull/372
+* Bump phpunit/phpunit from 11.5.44 to 11.5.50 in /agent by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/ugarit/nightwatch/pull/364
+* Use cloud trace ID when present by [@jradtilbrook](https://github.com/jradtilbrook) in https://github.com/ugarit/nightwatch/pull/357
+* GitHub Actions hardening by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/ugarit/nightwatch/pull/376
+* Add Dependabot cooldown of 5 days by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/ugarit/nightwatch/pull/377
+* Persist git credentials for release workflow by [@jradtilbrook](https://github.com/jradtilbrook) in https://github.com/ugarit/nightwatch/pull/375
+
+### New Contributors
+
+* [@joetannenbaum](https://github.com/joetannenbaum) made their first contribution in https://github.com/ugarit/nightwatch/pull/363
+* [@dependabot](https://github.com/dependabot)[bot] made their first contribution in https://github.com/ugarit/nightwatch/pull/365
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.27.0...v1.28.0
+
+## [v1.27.0](https://github.com/ugarit/nightwatch/compare/v1.26.0...v1.27.0) - 2026-05-21
+
+### What's Changed
+
+* Standardise naming conventions by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/359
+* Fix Ugarit 13 serialization test by [@jradtilbrook](https://github.com/jradtilbrook) in https://github.com/ugarit/nightwatch/pull/366
+* Handle `vapor:schedule` for sub-minute scheduling by [@jradtilbrook](https://github.com/jradtilbrook) in https://github.com/ugarit/nightwatch/pull/368
+* Add more test assertions by [@jessarcher](https://github.com/jessarcher) in https://github.com/ugarit/nightwatch/pull/369
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/1.26.1...v1.27.0
+
+## [v1.26.0](https://github.com/ugarit/nightwatch/compare/v1.25.0...v1.26.0) - 2026-04-01
+
+### What's Changed
+
+* Create `nightwatch:deploy` command by [@sbourouis](https://github.com/sbourouis) in https://github.com/ugarit/nightwatch/pull/282
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.25.0...v1.26.0
+
+## [v1.25.0](https://github.com/ugarit/nightwatch/compare/v1.24.4...v1.25.0) - 2026-03-31
+
+#### What's Changed
+
+* Add Ugarit 13 to CI by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/339
+* Add configure-nightwatch Boost skill by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/ugarit/nightwatch/pull/333
+* Auto-select port in tests by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/349
+* Fix flaky test by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/353
+* Update Boost skills by [@jessarcher](https://github.com/jessarcher) in https://github.com/ugarit/nightwatch/pull/354
+* Ignore `octane:status` vendor command by default by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/352
+* Add test for incomplete class job attempt and exception collection by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/355
+* Switch to unique deploy UUID for deployment config by [@jradtilbrook](https://github.com/jradtilbrook) in https://github.com/ugarit/nightwatch/pull/350
+
+### New Contributors
+
+* [@pushpak1300](https://github.com/pushpak1300) made their first contribution in https://github.com/ugarit/nightwatch/pull/333
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.24.4...v1.25.0
+
+## [v1.24.4](https://github.com/ugarit/nightwatch/compare/v1.24.3...v1.24.4) - 2026-03-18
+
+### What's Changed
+
+* Widen dependency versions by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/347
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.24.3...v1.24.4
+
+## [v1.24.3](https://github.com/ugarit/nightwatch/compare/v1.24.2...v1.24.3) - 2026-03-12
+
+### What's Changed
+
+* Add VAPOR_COMMIT_HASH fallback for NIGHTWATCH_DEPLOY by [@jradtilbrook](https://github.com/jradtilbrook) in https://github.com/ugarit/nightwatch/pull/343
+* Sync versions by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/344
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.24.2...v1.24.3
+
+## [v1.24.2](https://github.com/ugarit/nightwatch/compare/v1.24.1...v1.24.2) - 2026-03-10
+
+### What's Changed
+
+* Set user-agent on agent ingest requests by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/341
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.24.1...v1.24.2
+
+## [v1.24.1](https://github.com/ugarit/nightwatch/compare/v1.24.0...v1.24.1) - 2026-03-04
+
+### What's Changed
+
+* Restore local dependencies after running the build command by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/338
+* Ingest records immediately when next payload will exceed buffer limit by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/336
+* Refactor agent digest timer handling by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/337
+* Add sensible fallbacks for `NIGHTWATCH_DEPLOY` by [@jradtilbrook](https://github.com/jradtilbrook) in https://github.com/ugarit/nightwatch/pull/323
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.24.0...v1.24.1
+
+## [v1.24.0](https://github.com/ugarit/nightwatch/compare/v1.23.0...v1.24.0) - 2026-02-27
+
+### What's Changed
+
+* Ugarit 13 support by [@jessarcher](https://github.com/jessarcher) in https://github.com/ugarit/nightwatch/pull/335
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.23.0...v1.24.0
+
+## [v1.23.0](https://github.com/ugarit/nightwatch/compare/v1.22.3...v1.23.0) - 2026-02-27
+
+### What's Changed
+
+* Ignore Livewire checksum failure cache keys by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/331
+* Add `Nightwatch::digest` to proactively transmit events to the agent by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/330
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.22.3...v1.23.0
+
+## [v1.22.3](https://github.com/ugarit/nightwatch/compare/v1.22.2...v1.22.3) - 2026-02-19
+
+### What's Changed
+
+* Allow logs to bubble up through other channels in the stack by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/328
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.22.2...v1.22.3
+
+## [v1.22.2](https://github.com/ugarit/nightwatch/compare/v1.22.1...v1.22.2) - 2026-02-16
+
+### What's Changed
+
+* Ensure `Nightwatch::ignore` does not override sampling when unset by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/327
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.22.1...v1.22.2
+
+## [v1.22.1](https://github.com/ugarit/nightwatch/compare/v1.22.0...v1.22.1) - 2026-01-28
+
+### What's Changed
+
+* Remove contributing docs by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/322
+* Extend allowed length for group properties by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/321
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.22.0...v1.22.1
+
+## [v1.22.0](https://github.com/ugarit/nightwatch/compare/v1.21.1...v1.22.0) - 2026-01-15
+
+### What's Changed
+
+* Update changelog with scheduled task mention by [@jradtilbrook](https://github.com/jradtilbrook) in https://github.com/ugarit/nightwatch/pull/317
+* Make `FakeTcpStream` compatible with Monolog 3.10.0 by [@avosalmon](https://github.com/avosalmon) in https://github.com/ugarit/nightwatch/pull/319
+* Capture query connection type (read or write) by [@avosalmon](https://github.com/avosalmon) in https://github.com/ugarit/nightwatch/pull/318
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.21.1...v1.22.0
+
+## [v1.21.1](https://github.com/ugarit/nightwatch/compare/v1.21.0...v1.21.1) - 2025-12-18
+
+### What's Changed
+
+* Add facade alias by [@avosalmon](https://github.com/avosalmon) in https://github.com/ugarit/nightwatch/pull/316
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.21.0...v1.21.1
+
+## [v1.21.0](https://github.com/ugarit/nightwatch/compare/v1.20.0...v1.21.0) - 2025-12-16
+
+### What's Changed
+
+* Add AGENTS.md file by [@jessarcher](https://github.com/jessarcher) in https://github.com/ugarit/nightwatch/pull/303
+* Capture scheduled task sub-minute frequency by [@jessarcher](https://github.com/jessarcher) in https://github.com/ugarit/nightwatch/pull/302
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.20.0...v1.21.0
+
+## [v1.20.0](https://github.com/ugarit/nightwatch/compare/v1.19.0...v1.20.0) - 2025-12-16
+
+### What's Changed
+
+* PHP 8.5 support by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/309
+* Allow interaction with the Core class by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/311
+* Use sampling from context if already present by [@jradtilbrook](https://github.com/jradtilbrook) in https://github.com/ugarit/nightwatch/pull/308
+* Add sample rate for scheduled tasks by [@jradtilbrook](https://github.com/jradtilbrook) in https://github.com/ugarit/nightwatch/pull/312
+* Allow customising sample rate for individual scheduled tasks by [@jradtilbrook](https://github.com/jradtilbrook) in https://github.com/ugarit/nightwatch/pull/313
+* Disable vendor command sampling by default by [@jradtilbrook](https://github.com/jradtilbrook) in https://github.com/ugarit/nightwatch/pull/315
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.19.0...v1.20.0
+
+### Changes to scheduled task sampling
+
+With this release, scheduled tasks are able to be sampled separately from commands. If you were relying on `NIGHTWATCH_COMMAND_SAMPLE_RATE` to also change sampling of scheduled commands, you will need to update `NIGHTWATCH_SCHEDULED_TASK_SAMPLE_RATE` accordingly as this takes precedence.
+
+## [v1.19.0](https://github.com/ugarit/nightwatch/compare/v1.18.1...v1.19.0) - 2025-11-25
+
+### What's Changed
+
+* Fix data capture for `queue:listen` by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/299
+* Fix requiring lowest dependencies in CI by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/301
+* Internal improvements by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/300
+* Ignore `schedule:finish` command by [@avosalmon](https://github.com/avosalmon) in https://github.com/ugarit/nightwatch/pull/306
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.18.1...v1.19.0
+
+## [v1.18.1](https://github.com/ugarit/nightwatch/compare/v1.18.0...v1.18.1) - 2025-11-11
+
+#### What's Changed
+
+* Increase concurrent request limit to 5 by [@jradtilbrook](https://github.com/jradtilbrook) in https://github.com/ugarit/nightwatch/pull/298
+
+### New Contributors
+
+* [@jradtilbrook](https://github.com/jradtilbrook) made their first contribution in https://github.com/ugarit/nightwatch/pull/298
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.18.0...v1.18.1
+
+## [v1.18.0](https://github.com/ugarit/nightwatch/compare/v1.17.1...v1.18.0) - 2025-11-04
+
+### What's Changed
+
+* Add ability to redact exceptions by [@jessarcher](https://github.com/jessarcher) in https://github.com/ugarit/nightwatch/pull/296
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.17.1...v1.18.0
+
+## [v1.17.1](https://github.com/ugarit/nightwatch/compare/v1.17.0...v1.17.1) - 2025-10-27
+
+### What's Changed
+
+* Handle expired tokens by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/294
+* Write to `stderr` and `stdout` synchronously on Windows by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/295
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.17.0...v1.17.1
+
+## [v1.17.0](https://github.com/ugarit/nightwatch/compare/v1.16.0...v1.17.0) - 2025-10-22
+
+### What's Changed
+
+* Capture request payload on unhandled exception by [@jessarcher](https://github.com/jessarcher) in https://github.com/ugarit/nightwatch/pull/276
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.16.0...v1.17.0
+
+## [v1.16.0](https://github.com/ugarit/nightwatch/compare/v1.15.2...v1.16.0) - 2025-10-22
+
+### What's Changed
+
+* Use latest version of box by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/290
+* Ignore vendor cache keys by [@avosalmon](https://github.com/avosalmon) in https://github.com/ugarit/nightwatch/pull/291
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.15.2...v1.16.0
+
+## [v1.15.2](https://github.com/ugarit/nightwatch/compare/v1.15.1...v1.15.2) - 2025-10-17
+
+### What's Changed
+
+* Fix PHP warning on bad cookie by [@jessarcher](https://github.com/jessarcher) in https://github.com/ugarit/nightwatch/pull/292
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.15.1...v1.15.2
+
+## [v1.15.1](https://github.com/ugarit/nightwatch/compare/v1.15.0...v1.15.1) - 2025-10-16
+
+### What's Changed
+
+* Allow multiple filter callbacks to be registered by [@avosalmon](https://github.com/avosalmon) in https://github.com/ugarit/nightwatch/pull/287
+* Allow multiple redact callbacks to be registered by [@avosalmon](https://github.com/avosalmon) in https://github.com/ugarit/nightwatch/pull/289
+* Use config dot notation by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/288
+* Extract stream helpers by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/286
+* Gracefully handle error output on shutdown by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/285
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.15.0...v1.15.1
+
+## [v1.15.0](https://github.com/ugarit/nightwatch/compare/v1.14.1...v1.15.0) - 2025-10-10
+
+### What's Changed
+
+* Capture request headers by [@jessarcher](https://github.com/jessarcher) in https://github.com/ugarit/nightwatch/pull/270
+* Add error handling for serializing of request headers by [@jessarcher](https://github.com/jessarcher) in https://github.com/ugarit/nightwatch/pull/283
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.14.1...v1.15.0
+
+## [v1.14.1](https://github.com/ugarit/nightwatch/compare/v1.14.0...v1.14.1) - 2025-10-07
+
+### What's Changed
+
+* Capture query connection name with read/write type by [@avosalmon](https://github.com/avosalmon) in https://github.com/ugarit/nightwatch/pull/278
+* Revert "Capture query connection name with read/write type (#278)" by [@avosalmon](https://github.com/avosalmon) in https://github.com/ugarit/nightwatch/pull/279
+* Do not include bootstrapping or web worker initial wait time in first request for Octane by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/280
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.14.0...v1.14.1
+
+## [v1.14.0](https://github.com/ugarit/nightwatch/compare/v1.13.8...v1.14.0) - 2025-09-29
+
+### What's Changed
+
+* Associate events on the queue with currently authenticated user or the originating request by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/271
+* Context handling improvements by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/273
+* Add `Sample` middleware aliases by [@avosalmon](https://github.com/avosalmon) in https://github.com/ugarit/nightwatch/pull/275
+* Extract hook for queue payload modification by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/274
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.13.8...v1.14.0
+
+## [v1.13.8](https://github.com/ugarit/nightwatch/compare/v1.13.7...v1.13.8) - 2025-09-23
+
+### What's Changed
+
+* Improve auto-restart with Envoyer by [@jamesdangercarpenter](https://github.com/jamesdangercarpenter) in https://github.com/ugarit/nightwatch/pull/266
+* Improve sub-minute task capture by [@avosalmon](https://github.com/avosalmon) in https://github.com/ugarit/nightwatch/pull/265
+* Fix logging when outside of the loop by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/269
+* Bump minimum monolog version by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/272
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.13.7...v1.13.8
+
+## [v1.13.7](https://github.com/ugarit/nightwatch/compare/v1.13.6...v1.13.7) - 2025-09-20
+
+### What's Changed
+
+* Write to stdout and stderr via loop by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/268
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.13.6...v1.13.7
+
+## [v1.13.6](https://github.com/ugarit/nightwatch/compare/v1.13.5...v1.13.6) - 2025-09-16
+
+### What's Changed
+
+* Fix agent missing options by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/264
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.13.5...v1.13.6
+
+## [v1.13.5](https://github.com/ugarit/nightwatch/compare/v1.13.4...v1.13.5) - 2025-09-15
+
+### What's Changed
+
+* Improve agent logging behaviour by [@jamesdangercarpenter](https://github.com/jamesdangercarpenter) in https://github.com/ugarit/nightwatch/pull/262
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.13.4...v1.13.5
+
+## [v1.13.4](https://github.com/ugarit/nightwatch/compare/v1.13.3...v1.13.4) - 2025-09-11
+
+#### What's Changed
+
+* Refactor UserProvider by [@jessarcher](https://github.com/jessarcher) in https://github.com/ugarit/nightwatch/pull/259
+* Update Fatal errors execution id by [@sbourouis](https://github.com/sbourouis) in https://github.com/ugarit/nightwatch/pull/260
+* Allow the user ID to be customized by [@jessarcher](https://github.com/jessarcher) in https://github.com/ugarit/nightwatch/pull/261
+
+### New Contributors
+
+* [@sbourouis](https://github.com/sbourouis) made their first contribution in https://github.com/ugarit/nightwatch/pull/260
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.13.3...v1.13.4
+
+## [v1.13.3](https://github.com/ugarit/nightwatch/compare/v1.13.2...v1.13.3) - 2025-09-08
+
+### What's Changed
+
+* Restore missing changelog entries by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/257
+* Capture scheduled tasks that run in background by [@avosalmon](https://github.com/avosalmon) in https://github.com/ugarit/nightwatch/pull/258
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.13.2...v1.13.3
+
+## [v1.13.2](https://github.com/ugarit/nightwatch/compare/v1.13.1...v1.13.2) - 2025-08-25
+
+### What's Changed
+
+* Commit changelog changes by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/253
+* Send fatal errors to agent immediately by [@jessarcher](https://github.com/jessarcher) in https://github.com/ugarit/nightwatch/pull/254
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.13.1...v1.13.2
+
+## [v1.13.1](https://github.com/ugarit/nightwatch/compare/v1.13.0...v1.13.1) - 2025-08-20
+
+### What's Changed
+
+* Fix log processors applying side-effects to other handlers when used in a stack by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/249
+* Fix changelog generation by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/250
+* Fix changelog generation by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/251
+* Fix changelog generation by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/252
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.13.0...v1.13.1
+
+## [v1.13.0](https://github.com/ugarit/nightwatch/compare/v1.12.0...v1.13.0) - 2025-08-20
+
+### What's Changed
+
+* Preserve zero fractions for log context and extra by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/247
+* Ugarit Context by [@jessarcher](https://github.com/jessarcher) in https://github.com/ugarit/nightwatch/pull/245
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.12.0...v1.13.0
+
+## [v1.12.0](https://github.com/ugarit/nightwatch/compare/v1.11.5...v1.12.0) - 2025-08-14
+
+### What's Changed
+
+* Ignore build file by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/241
+* Improve exception traces by [@jessarcher](https://github.com/jessarcher) in https://github.com/ugarit/nightwatch/pull/243
+* Add source code capture for exception traces by [@philliphartin](https://github.com/philliphartin) in https://github.com/ugarit/nightwatch/pull/229
+* Fix execution stage not being updated correctly after an unhandled exception in the action stage by [@jessarcher](https://github.com/jessarcher) in https://github.com/ugarit/nightwatch/pull/242
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.11.5...v1.12.0
+
+## [v1.11.5](https://github.com/ugarit/nightwatch/compare/v1.11.4...v1.11.5) - 2025-08-04
+
+### What's Changed
+
+* Add docker health check by [@jamesdangercarpenter](https://github.com/jamesdangercarpenter) in https://github.com/ugarit/nightwatch/pull/239
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.11.4...v1.11.5
+
+## [v1.11.4](https://github.com/ugarit/nightwatch/compare/v1.11.3...v1.11.4) - 2025-07-18
+
+### What's Changed
+
+* Fix autoloading files by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/238
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.11.3...v1.11.4
+
+## [v1.11.3](https://github.com/ugarit/nightwatch/compare/v1.11.2...v1.11.3) - 2025-07-17
+
+### What's Changed
+
+* fix: checkout the code by [@jamesdangercarpenter](https://github.com/jamesdangercarpenter) in https://github.com/ugarit/nightwatch/pull/236
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.11.2...v1.11.3
+
+## [v1.11.2](https://github.com/ugarit/nightwatch/compare/v1.11.1...v1.11.2) - 2025-07-17
+
+### What's Changed
+
+* fix: docker build syntax by [@jamesdangercarpenter](https://github.com/jamesdangercarpenter) in https://github.com/ugarit/nightwatch/pull/235
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.11.1...v1.11.2
+
+## [v1.11.1](https://github.com/ugarit/nightwatch/compare/v1.11.0...v1.11.1) - 2025-07-17
+
+### What's Changed
+
+* fix: correctly trigger docker publish by [@jamesdangercarpenter](https://github.com/jamesdangercarpenter) in https://github.com/ugarit/nightwatch/pull/234
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.11.0...v1.11.1
+
+## [v1.11.0](https://github.com/ugarit/nightwatch/compare/v1.10.6...v1.11.0) - 2025-07-17
+
+### What's Changed
+
+* Improve agent payload validation by [@jamesdangercarpenter](https://github.com/jamesdangercarpenter) in https://github.com/ugarit/nightwatch/pull/202
+* Fix Beanstalkd job monitoring by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/227
+* Control UUID generation by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/224
+* Improve/reinstate restart on signature change behaviour by [@jamesdangercarpenter](https://github.com/jamesdangercarpenter) in https://github.com/ugarit/nightwatch/pull/228
+* Publish official Docker image by [@jamesdangercarpenter](https://github.com/jamesdangercarpenter) in https://github.com/ugarit/nightwatch/pull/226
+* Fix: docker build, token mismatch handling by [@jamesdangercarpenter](https://github.com/jamesdangercarpenter) in https://github.com/ugarit/nightwatch/pull/230
+* Eager load classes by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/231
+* fix: don't force a major version for the first payload version by [@jamesdangercarpenter](https://github.com/jamesdangercarpenter) in https://github.com/ugarit/nightwatch/pull/232
+* Fix/version validation by [@jamesdangercarpenter](https://github.com/jamesdangercarpenter) in https://github.com/ugarit/nightwatch/pull/233
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.10.6...v1.11.0
+
+## [v1.10.6](https://github.com/ugarit/nightwatch/compare/v1.10.5...v1.10.6) - 2025-07-08
+
+### What's Changed
+
+* Normalize group hashes for singlestore connections by [@jessarcher](https://github.com/jessarcher) in https://github.com/ugarit/nightwatch/pull/225
+* Capture job attempts in Vapor by [@avosalmon](https://github.com/avosalmon) in https://github.com/ugarit/nightwatch/pull/199
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.10.5...v1.10.6
+
+## [v1.10.5](https://github.com/ugarit/nightwatch/compare/v1.10.4...v1.10.5) - 2025-07-06
+
+### What's Changed
+
+* Ignore events while interacting with the auth manager by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/218
+* Change visibility of internal properties by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/223
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.10.4...v1.10.5
+
+## [v1.10.4](https://github.com/ugarit/nightwatch/compare/v1.10.3...v1.10.4) - 2025-07-06
+
+### What's Changed
+
+* Improve user guard resolution by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/217
+* Capture Livewire component name on Livewire update requests by [@jessarcher](https://github.com/jessarcher) in https://github.com/ugarit/nightwatch/pull/208
+* Fix tests not showing exceptions by [@jessarcher](https://github.com/jessarcher) in https://github.com/ugarit/nightwatch/pull/219
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.10.3...v1.10.4
+
+## [v1.10.3](https://github.com/ugarit/nightwatch/compare/v1.10.2...v1.10.3) - 2025-07-02
+
+### What's Changed
+
+* Gracefully handle exceptions while resolving user ids by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/216
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.10.2...v1.10.3
+
+## [v1.10.2](https://github.com/ugarit/nightwatch/compare/v1.10.1...v1.10.2) - 2025-07-01
+
+### What's Changed
+
+* Fix miscellaneous errors with old Ugarit versions by @jessarcher in https://github.com/ugarit/nightwatch/pull/212
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.10.1...v1.10.2
+
+## [v1.10.1](https://github.com/ugarit/nightwatch/compare/v1.10.0...v1.10.1) - 2025-06-30
+
+### What's Changed
+
+* Allow navigating to same stage by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/213
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.10.0...v1.10.1
+
+## [v1.10.0](https://github.com/ugarit/nightwatch/compare/v1.9.1...v1.10.0) - 2025-06-30
+
+### What's Changed
+
+* Fix test cleanup by [@jessarcher](https://github.com/jessarcher) in https://github.com/ugarit/nightwatch/pull/207
+* Fix sampling at zero with Nova by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/211
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.9.1...v1.10.0
+
+## [v1.9.1](https://github.com/ugarit/nightwatch/compare/v1.9.0...v1.9.1) - 2025-06-27
+
+### What's Changed
+
+* Ensure jobs are tracked correctly with Octane by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/204
+* Remove internal API from facade by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/205
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.9.0...v1.9.1
+
+## [v1.9.0](https://github.com/ugarit/nightwatch/compare/v1.8.4...v1.9.0) - 2025-06-26
+
+### What's Changed
+
+* fix: version calculation in release workflow by [@jamesdangercarpenter](https://github.com/jamesdangercarpenter) in https://github.com/ugarit/nightwatch/pull/200
+* Filtering improvements by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/197
+* Octane support by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/201
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.8.4...v1.9.0
+
+## [v1.8.4](https://github.com/ugarit/nightwatch/compare/v1.7.4...v1.8.4) - 2025-06-25
+
+### What's Changed
+
+* Sampling improvements by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/185
+* Add support for log levels by [@jessarcher](https://github.com/jessarcher) in https://github.com/ugarit/nightwatch/pull/198
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.7.4...v1.8.4
+
+## [v1.7.4](https://github.com/ugarit/nightwatch/compare/v1.7.3...v1.7.4) - 2025-06-19
+
+### What's Changed
+
+* Force stream select loop by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/193
+* Ensure internal composer class only included once by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/188
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.7.3...v1.7.4
+
+## [v1.7.3](https://github.com/ugarit/nightwatch/compare/v1.7.2...v1.7.3) - 2025-06-17
+
+### What's Changed
+
+* Handle `null` cache keys by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/189
+* Handle `null` connection name by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/191
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.7.2...v1.7.3
+
+## [v1.7.2](https://github.com/ugarit/nightwatch/compare/v1.7.1...v1.7.2) - 2025-06-17
+
+### What's Changed
+
+* Report internal exceptions as handled by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/187
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.7.1...v1.7.2
+
+## [v1.7.1](https://github.com/ugarit/nightwatch/compare/v1.7.0...v1.7.1) - 2025-06-17
+
+### What's Changed
+
+* Allow capturing of log context and extra that contain binary by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/186
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.7.0...v1.7.1
+
+## [v1.7.0](https://github.com/ugarit/nightwatch/compare/v1.6.0...v1.7.0) - 2025-06-16
+
+### What's Changed
+
+* Respect ingest uri by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/179
+* Extract sampling helper by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/180
+* Add description to `AsCommand` attribute by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/181
+* Extract execution stage helper by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/182
+* Encapsulate state with command name helper by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/183
+* Update version by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/184
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.6.0...v1.7.0
+
+## [v1.6.0](https://github.com/ugarit/nightwatch/compare/v1.5.1...v1.6.0) - 2025-06-13
+
+### What's Changed
+
+* Add PHP 8.4 to CI by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/173
+* Configuration based event ignores by type by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/175
+* Fix scheduled tasks being collected twice by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/177
+* Fake ingest at the TCP stream layer by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/176
+* Configurable unsampled execution exception sample rate by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/178
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.5.1...v1.6.0
+
+## [v1.5.1](https://github.com/ugarit/nightwatch/compare/v1.5.0...v1.5.1) - 2025-05-20
+
+### What's Changed
+
+* Update changlog on release by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/162
+* Refactor agent tests to PHPUnit classes by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/158
+* Migrate to PHPUnit by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/163
+* Fix exception preview sticking between executions by [@jessarcher](https://github.com/jessarcher) in https://github.com/ugarit/nightwatch/pull/164
+* Support job attempts for Ugarit < v11.23.0 by [@avosalmon](https://github.com/avosalmon) in https://github.com/ugarit/nightwatch/pull/154
+* Silence exceptions occurring while handling exceptions by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/166
+* Fix user-agent string by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/165
+* Ingest at threshold by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/161
+* Improve codebase consistency by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/167
+* Migrate to PHPUnit by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/168
+* Respect `retry_in` from app response  by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/171
+* Migrate to assertions by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/170
+* Handle binary and unicode characters by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/172
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.5.0...v1.5.1
+
+## [v1.5.0](https://github.com/ugarit/nightwatch/compare/v1.4.0...v1.5.0) - 2025-05-07
+
+### What's Changed
+
+* Revert to MIT license by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/155
+* Fix intermittent ingest issues by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/152
+* Always read base url from env by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/159
+* Automagically restart the agent by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/156
+* Add release action by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/160
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.4.0...v1.5.0
+
+## [v1.4.0](https://github.com/ugarit/nightwatch/compare/v1.3.0...v1.4.0) - 2025-04-28
+
+### What's Changed
+
+* Job sampling by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/147
+* Command sampling by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/148
+* Encapsulate capturing of scheduled tasks by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/150
+* Improve local ci check performance by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/151
+* Fix `facades` build permission by [@crynobone](https://github.com/crynobone) in https://github.com/ugarit/nightwatch/pull/149
+
+### New Contributors
+
+* [@crynobone](https://github.com/crynobone) made their first contribution in https://github.com/ugarit/nightwatch/pull/149
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.3.0...v1.4.0
+
+## [v1.3.0](https://github.com/ugarit/nightwatch/compare/v1.2.1...v1.3.0) - 2025-04-24
+
+### What's Changed
+
+* Improve quota check performance by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/136
+* Add status command by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/140
+* Use Bencode for agent payloads  by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/141
+* Fix typo by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/143
+* Request Sampling by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/142
+* Write payload for debugging by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/144
+* Add watch command by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/145
+* Improve status command by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/146
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.2.1...v1.3.0
+
+## [v1.2.1](https://github.com/ugarit/nightwatch/compare/v1.2.0...v1.2.1) - 2025-04-16
+
+### What's Changed
+
+* Ensure user ID is always captured by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/138
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.2.0...v1.2.1
+
+## [v1.2.0](https://github.com/ugarit/nightwatch/compare/v1.1.2...v1.2.0) - 2025-04-15
+
+### What's Changed
+
+* Improved authentication retries by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/130
+* Allow customisation of captured user details by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/131
+* Support using Guzzle directly by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/132
+* Capture and reuse loop instance by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/133
+* Register hooks to ensure we capture exceptions occuring in the register method of the application's service provider by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/135
+* Back off ingestion once over quota by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/134
+* Add auth testing endpoints by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/137
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.1.2...v1.2.0
+
+## [v1.1.2](https://github.com/ugarit/nightwatch/compare/v1.1.1...v1.1.2) - 2025-03-31
+
+### What's Changed
+
+* Add missing record property length limits by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/126
+* Capture exception previews by [@jessarcher](https://github.com/jessarcher) in https://github.com/ugarit/nightwatch/pull/127
+* Capture execution previews by [@jessarcher](https://github.com/jessarcher) in https://github.com/ugarit/nightwatch/pull/128
+* Improve exception handling by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/129
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.1.1...v1.1.2
+
+## [v1.1.1](https://github.com/ugarit/nightwatch/compare/v1.1.0...v1.1.1) - 2025-03-19
+
+### What's Changed
+
+* Fix horizon capturing jobs by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/125
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.1.0...v1.1.1
+
+## [v1.1.0](https://github.com/ugarit/nightwatch/compare/v1.0.7...v1.1.0) - 2025-03-17
+
+### What's Changed
+
+* Send the server name with outgoing requests by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/120
+* Add Ugarit 10 support (excluding job attempts) by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/119
+* Add Ugarit 12 support by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/124
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.0.7...v1.1.0
+
+## [v1.0.7](https://github.com/ugarit/nightwatch/compare/v1.0.6...v1.0.7) - 2025-03-03
+
+### What's Changed
+
+* Fix class declaration by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/123
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.0.6...v1.0.7
+
+## [v1.0.6](https://github.com/ugarit/nightwatch/compare/v1.0.5...v1.0.6) - 2025-03-03
+
+### What's Changed
+
+* Improve deterministic builds by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/121
+* Allow longer job names by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/122
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.0.5...v1.0.6
+
+## [v1.0.5](https://github.com/ugarit/nightwatch/compare/v1.0.4...v1.0.5) - 2025-02-27
+
+### What's Changed
+
+* Use more performant hashing algorithm by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/116
+* Improve deterministic builds by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/117
+* Send package version in the user agent header by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/118
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.0.4...v1.0.5
+
+## [v1.0.4](https://github.com/ugarit/nightwatch/compare/v1.0.3...v1.0.4) - 2025-02-25
+
+### What's Changed
+
+* Improve exported git attributes by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/113
+* Ensure client can be included multiple times by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/112
+* Improve gitattributes by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/114
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.0.3...v1.0.4
+
+## [v1.0.3](https://github.com/ugarit/nightwatch/compare/v1.0.2...v1.0.3) - 2025-02-23
+
+### What's Changed
+
+* Build agent by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/107
+* Remove unneeded extension dependency by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/108
+* Pass agent token directly by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/110
+* Build client by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/109
+* Rename facade workflow by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/111
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.0.2...v1.0.3
+
+## [v1.0.2](https://github.com/ugarit/nightwatch/compare/v1.0.1...v1.0.2) - 2025-02-18
+
+### What's Changed
+
+* Capture notification duration by [@avosalmon](https://github.com/avosalmon) in https://github.com/ugarit/nightwatch/pull/104
+* Mail duration by [@avosalmon](https://github.com/avosalmon) in https://github.com/ugarit/nightwatch/pull/105
+* Capture job dispatch duration by [@avosalmon](https://github.com/avosalmon) in https://github.com/ugarit/nightwatch/pull/106
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.0.1...v1.0.2
+
+## [v1.0.1](https://github.com/ugarit/nightwatch/compare/v1.0.0...v1.0.1) - 2025-02-14
+
+### What's Changed
+
+* fix: workflow permissions by [@jamesdangercarpenter](https://github.com/jamesdangercarpenter) in https://github.com/ugarit/nightwatch/pull/101
+* Migrate auth url from config to command option by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/100
+* Revert "fix: workflow permissions" by [@jamesdangercarpenter](https://github.com/jamesdangercarpenter) in https://github.com/ugarit/nightwatch/pull/102
+* Rename Agent to match Ugarit's naming conventions by [@timacdonald](https://github.com/timacdonald) in https://github.com/ugarit/nightwatch/pull/103
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/compare/v1.0.0...v1.0.1
+
+## [v1.0.0](https://github.com/ugarit/nightwatch/compare/v0.1.0...v1.0.0) - 2025-02-13
+
+### What's Changed
+
+* Initial release
+
+**Full Changelog**: https://github.com/ugarit/nightwatch/commits/v1.0.0

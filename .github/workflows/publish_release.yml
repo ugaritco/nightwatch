@@ -1,0 +1,146 @@
+name: Create release
+run-name: ${{ format('Create {0} release', inputs.version_type) }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      version_type:
+        description: "Version type"
+        required: true
+        default: "patch"
+        type: choice
+        options:
+          - patch
+          - minor
+          - major
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    name: Publish release
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: write
+
+    steps:
+      - name: Exit early if not on 1.x
+        if: github.ref != 'refs/heads/1.x'
+        run: exit 1
+
+      - uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3
+        id: app-token
+        with:
+          app-id: ${{ vars.NIGHTWATCH_PERMISSIONS_APP_ID }}
+          private-key: ${{ secrets.NIGHTWATCH_PERMISSIONS_APP_PRIVATE_KEY }}
+
+      - name: Checkout repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v6
+        with:
+          persist-credentials: true
+          token: ${{ steps.app-token.outputs.token }}
+
+      - name: Fetch last release tag
+        id: last_tag
+        run: |
+          git fetch --tags
+          echo "tag=$(git tag --sort=-creatordate | grep -E '\bv[0-9]+\.[0-9]+\.[0-9]+\b' | head -n1)" >> $GITHUB_OUTPUT
+
+      - name: Get PAYLOAD_VERSION in current branch
+        id: current_version
+        run: |
+          version=$(grep "public const PAYLOAD_VERSION" src/Payload.php | sed -E "s/.*'([^']+)'.*/\1/")
+          echo "version=$version" >> $GITHUB_OUTPUT
+
+      - name: Get PAYLOAD_VERSION in last release
+        id: release_version
+        run: |
+          git show ${{ steps.last_tag.outputs.tag }}:src/Payload.php > /tmp/Payload.php
+          version=$(grep "public const PAYLOAD_VERSION" /tmp/Payload.php | sed -E "s/.*'([^']+)'.*/\1/")
+          echo "version=$version" >> $GITHUB_OUTPUT
+
+      - name: Compare PAYLOAD_VERSION to determine version type
+        if: inputs.version_type != 'major'
+        run: |
+          echo "Current: ${{ steps.current_version.outputs.version }}"
+          echo "Release: ${{ steps.release_version.outputs.version }}"
+          if [ "${{ steps.current_version.outputs.version }}" != "${{ steps.release_version.outputs.version }}" ] && [ "${{ steps.release_version.outputs.version }}" != "" ]; then
+            echo "PAYLOAD_VERSION has changed."
+            exit 1
+          else
+            echo "PAYLOAD_VERSION has not changed."
+          fi
+
+      - name: Bump version
+        shell: bash
+        id: bump-version
+        run: |
+          IFS="."
+          version_type=${{ inputs.version_type }}
+          current_version=$(cat version.txt)
+
+          if [[ $current_version =~ ^([0-9]+)\.([0-9]+)\.([0-9]+)$ ]]; then
+              major=${BASH_REMATCH[1]}
+              minor=${BASH_REMATCH[2]}
+              patch=${BASH_REMATCH[3]}
+
+            case "$version_type" in
+              major)
+                major=$((major + 1))
+                minor=0
+                patch=0
+                ;;
+              minor)
+                minor=$((minor + 1))
+                patch=0
+                ;;
+              patch)
+                patch=$((patch + 1))
+                ;;
+            esac
+
+            echo "Bumping ${version_type} version"
+            echo "Was: ${current_version}"
+
+            new_version="$major.$minor.$patch"
+            echo "version=$new_version" >> "$GITHUB_OUTPUT"
+            echo "Now: ${new_version}"
+            echo "${new_version}" > version.txt
+          else
+              echo "Current version format is invalid" >&2
+              exit 1
+          fi
+
+      - name: Generate release notes
+        id: notes
+        uses: RedCrafter07/release-notes-action@31674bfa3a219e7c661fc0c5b7b3851c741b9965 # main
+        with:
+          tag-name: v${{ steps.bump-version.outputs.version }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: "1.x"
+
+      - name: Update Changelog
+        uses: stefanzweifel/changelog-updater-action@a938690fad7edf25368f37e43a1ed1b34303eb36 # v1
+        with:
+          release-notes: "#${{ steps.notes.outputs.release-notes }}"
+          latest-version: "v${{ steps.bump-version.outputs.version }}"
+          compare-url-target-revision: "1.x"
+          parse-github-usernames: true
+
+      - uses: EndBug/add-and-commit@cc9c08ba6c8df3b93a8f2db63e89b98368ae2ae8 # v11.1.1
+        with:
+          default_author: github_actions
+          message: "Bump version to v${{ steps.bump-version.outputs.version }}"
+          tag: "v${{ steps.bump-version.outputs.version }}"
+          push: true
+
+      - uses: softprops/action-gh-release@efb35369e0ad2afab669f228072c1b0d510eae64 # v3
+        with:
+          generate_release_notes: false
+          body: ${{ steps.notes.outputs.release-notes }}
+          make_latest: true
+          name: "v${{ steps.bump-version.outputs.version }}"
+          tag_name: "v${{ steps.bump-version.outputs.version }}"
+          token: ${{ steps.app-token.outputs.token }}
