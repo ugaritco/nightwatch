@@ -30,7 +30,7 @@ jobs:
         if: github.ref != 'refs/heads/1.x'
         run: exit 1
 
-      - uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3
+      - uses: actions/create-github-app-token@64ab729a6294000f5aa4a4bc0b73d1f32bc45510 # v3
         id: app-token
         with:
           app-id: ${{ vars.NIGHTWATCH_PERMISSIONS_APP_ID }}
@@ -115,7 +115,7 @@ jobs:
 
       - name: Generate release notes
         id: notes
-        uses: RedCrafter07/release-notes-action@31674bfa3a219e7c661fc0c5b7b3851c741b9965 # main
+        uses: RedCrafter07/release-notes-action@304edb57ff4d0cb822b39a00556c015790dee977 # main
         with:
           tag-name: v${{ steps.bump-version.outputs.version }}
           token: ${{ secrets.GITHUB_TOKEN }}
