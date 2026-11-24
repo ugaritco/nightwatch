@@ -30,7 +30,7 @@ jobs:
         if: github.ref != 'refs/heads/1.x'
         run: exit 1
 
-      - uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3
+      - uses: actions/create-github-app-token@f418cff399f7aef4c2f0ad47e25ca7a6abbdd6fc # v3
         id: app-token
         with:
           app-id: ${{ vars.NIGHTWATCH_PERMISSIONS_APP_ID }}
@@ -115,14 +115,14 @@ jobs:
 
       - name: Generate release notes
         id: notes
-        uses: RedCrafter07/release-notes-action@31674bfa3a219e7c661fc0c5b7b3851c741b9965 # main
+        uses: RedCrafter07/release-notes-action@304edb57ff4d0cb822b39a00556c015790dee977 # main
         with:
           tag-name: v${{ steps.bump-version.outputs.version }}
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: "1.x"
 
       - name: Update Changelog
-        uses: stefanzweifel/changelog-updater-action@a938690fad7edf25368f37e43a1ed1b34303eb36 # v1
+        uses: stefanzweifel/changelog-updater-action@1171d74932456fd2049c486b8757956a6adcc11b # v1
         with:
           release-notes: "#${{ steps.notes.outputs.release-notes }}"
           latest-version: "v${{ steps.bump-version.outputs.version }}"
@@ -136,7 +136,7 @@ jobs:
           tag: "v${{ steps.bump-version.outputs.version }}"
           push: true
 
-      - uses: softprops/action-gh-release@efb35369e0ad2afab669f228072c1b0d510eae64 # v3
+      - uses: softprops/action-gh-release@8a0cd651e5b2365bd640854a3fa5dfc70e4875f3 # v3
         with:
           generate_release_notes: false
           body: ${{ steps.notes.outputs.release-notes }}
